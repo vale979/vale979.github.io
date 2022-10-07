@@ -2,7 +2,6 @@
 title: "About"
 type: page
 date: 2022-10-06T22:33:10+07:00
-draft: true
 math: true
 ---
 
