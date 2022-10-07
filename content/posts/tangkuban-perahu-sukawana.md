@@ -1,5 +1,5 @@
 ---
-title: "Solo Hike Tangkuban Perahu via CIC - Sukawana"
+title: "Solo Hike Tangkuban Perahu via CIC - Sukawana (Include GPX)"
 date: 2022-10-07T09:59:44+07:00
 draft: false
 tags: ["hiking", "bahasa indonesia"]
@@ -47,3 +47,4 @@ Ketika berjalan turun, saya hampir tidak berhenti. Mengejar waktu karena cuaca k
 $$~$$
 
 Walau tetap saja kehujanan di perjalanan saat sampai di daerah Ledeng - Setiabudhi sih wkwkwk.
+Oh ya, untuk yang mau coba ke sana juga, bisa cek file GPXnya di [sini](https://drive.google.com/file/d/1uQHKQ7yQXP-balSdWjDlI4BKnRKuPqMm/view?usp=sharing). Nanti tinggal buka filenya di aplikasi Footpath, export ke Garmin, atau aplikasi GPS lain favorit anda.
