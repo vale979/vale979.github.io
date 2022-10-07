@@ -1,0 +1,41 @@
+baseURL = 'vale979.github.io'
+languageCode = 'en-us'
+title = "Val's Notes"
+theme = 'fluency'
+math = true
+disableComment = true
+author = 'Valerian'
+summaryLength = 25
+enableEmoji = true
+
+#menu
+[menu]
+    [[menu.main]]
+        identifier = 'posts'
+        name = 'Posts'
+        url = 'posts/'
+        weight = 1
+    
+    [[menu.main]]
+        identifier = 'tags'
+        name = 'Tags'
+        url = 'tags/'
+        weight = 2
+
+    [[menu.main]]
+        identifier = 'about'
+        name = 'About Me'
+        url = 'about/'
+        weight = 3
+
+#privacy stuff
+[privacy]
+    [privacy.disqus]
+        disable =  true
+    
+    [privacy.googleAnalytics]
+        anonymizeIP = true
+        respectDoNotTrack = true
+
+    [privacy.youtube]
+        privacyEnhanced = true
