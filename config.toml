@@ -4,7 +4,7 @@ theme = 'fluency'
 math = true
 disableComment = true
 author = 'Valerian'
-summaryLength = 25
+summaryLength = 30
 enableEmoji = true
 publishDir = "docs"
 
