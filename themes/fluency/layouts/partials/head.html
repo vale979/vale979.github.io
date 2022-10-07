@@ -81,7 +81,7 @@
 
   {{ if not .Site.IsServer }}
     {{ $CSS := $CSS | minify | fingerprint }}
-    <link rel="stylesheet" href="{{ $CSS.Permalink }}" integrity="{{ $CSS.Data.Integrity }}" rel="preload stylesheet" as="style"/>
+    <link rel="stylesheet" href="{{ $CSS.Permalink }}" integrity="" rel="preload stylesheet" as="style"/>
   {{ else }}
     <link rel="stylesheet" href="{{ $CSS.Permalink }}" rel="preload stylesheet" as="style"/>
   {{ end }}
