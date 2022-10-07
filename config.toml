@@ -41,4 +41,6 @@ publishDir = "docs"
     [privacy.youtube]
         privacyEnhanced = true
 
-params.assets.disableFingerprinting = true
+[params]
+    [params.assets]
+        disableFingerprinting = true

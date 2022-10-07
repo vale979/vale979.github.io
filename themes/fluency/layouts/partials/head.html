@@ -80,7 +80,7 @@
   {{ $CSS := slice $base_style $main_style | resources.Concat "style.css" }}
 
   {{ if not .Site.IsServer }}
-    {{ $CSS := $CSS | minify | fingerprint }}
+    {{ $CSS := $CSS }}
     <link rel="stylesheet" href="{{ $CSS.Permalink }}" integrity="" rel="preload stylesheet" as="style"/>
   {{ else }}
     <link rel="stylesheet" href="{{ $CSS.Permalink }}" rel="preload stylesheet" as="style"/>
