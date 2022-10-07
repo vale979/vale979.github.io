@@ -1,0 +1,33 @@
+{{ define "main" }}
+<main id="main" class="archives">
+  <div class="container has-padding">
+   <h2>{{ partial "utils/icons" "archive" }}{{ i18n "archive" }}</h2>
+   <div class="listing">
+      {{ $pageSize := site.Params.pageSize.archives | default 20 }}
+      {{ $paginator := .Paginate (where site.RegularPages "Section" "in" site.Params.mainSections) $pageSize }}
+      {{ if $paginator }}
+      {{ range $paginator.Pages.GroupByPublishDate "2006" }}
+        {{ if ne .Key "0001" }}
+        <div class="archive-year">
+          <h3 class="archive-year-header">{{- replace .Key "0001" "" }}<sup>{{ len .Pages }}</sup></h3>
+          <div class="archive-posts">
+            {{- range .Pages  }}
+            {{- if eq .Kind "page" }}
+              <div class="archive-entry">
+                <a href="{{ .Permalink }}">
+                  <span class="title">{{ .Title }}</span>
+                  <time class="date">{{ .PublishDate.Format "January 02" }}</time>
+                </a>
+              </div>
+            {{ end }}
+            {{ end }}
+          </div>
+        </div>
+        {{ end }}
+      {{ end }}
+      {{ end }}
+    </div>
+    {{ partial "pagination.html" . }}
+  </div>
+</main>
+{{ end }}

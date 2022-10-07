@@ -1,0 +1,11 @@
+{{ $globalDisabled := site.Params.disableComment | default false }}
+{{ $disableType := (in (site.Params.disableCommentByType | default "[]string") .Type) }}
+{{ $unsetCommentService := true }}
+
+{{ with .Site.DisqusShortname }} {{ $unsetCommentService = false }} {{ end }}
+
+{{ with .Site.Params.thirdPartyComment }} {{ $unsetCommentService = false }} {{ end }}
+
+{{ $disableComment := or (or $disableType $unsetCommentService) $globalDisabled }}
+
+{{ return (not $disableComment) }}

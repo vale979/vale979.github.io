@@ -1,0 +1,39 @@
+{{ define "main" }}
+{{ $enableComment := (partial "utils/comment_is_enabled" . ) }}
+<main id="main">
+  <div class="container has-padding">
+    <div class="article-card post single">
+      <h1 class="title">{{ .Title }}</h1>
+      <div class="post-info">
+        <span>{{ partial "utils/icons" "calendar-sharp" }}<time datetime={{ .Date.Format "2006-01-02T15:04:05Z0700" }} class="date">{{ .Date.Format "2 January 2006" }}</time></span>
+        <span>{{ partial "utils/icons" "time-sharp" }}{{ i18n "readingTime" .ReadingTime }}</span>
+        {{ with (partial "utils/author" . ) }}
+          <span>{{ partial "utils/icons" "person-sharp" }}{{.}}</span>
+        {{end}}
+        {{ if $enableComment }}
+          <span>
+            {{ partial "utils/icons" "chatbox-ellipses-sharp" }}
+            <a href="#comments">
+              {{ i18n "comment" }}
+            </a>
+          </span>
+        {{ end }}
+      </div>
+      <article class="post-entry content">
+        {{ .Content }}
+      </article>
+    </div>
+
+    {{ if not (eq .Type "page") }}
+      {{ partial "post_metadata.html" . }}
+    {{ end }}
+
+    {{ if $enableComment }}
+      <div id="comments" class="article-card">
+        {{ partial "comments.html" . }}
+      </div>
+    {{ end }}
+
+  </div>
+</main>
+{{ end }}
