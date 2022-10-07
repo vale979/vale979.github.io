@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Val&#39;s Notes</title>
-    <link>vale979.github.io/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on Val&#39;s Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 07 Oct 2022 09:59:44 +0700</lastBuildDate><atom:link href="vale979.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 07 Oct 2022 09:59:44 +0700</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>bahasa indonesia</title>
-      <link>vale979.github.io/tags/bahasa-indonesia/</link>
+      <link>/tags/bahasa-indonesia/</link>
       <pubDate>Fri, 07 Oct 2022 09:59:44 +0700</pubDate>
       
-      <guid>vale979.github.io/tags/bahasa-indonesia/</guid>
+      <guid>/tags/bahasa-indonesia/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hiking</title>
-      <link>vale979.github.io/tags/hiking/</link>
+      <link>/tags/hiking/</link>
       <pubDate>Fri, 07 Oct 2022 09:59:44 +0700</pubDate>
       
-      <guid>vale979.github.io/tags/hiking/</guid>
+      <guid>/tags/hiking/</guid>
       <description></description>
     </item>
     
     <item>
       <title>english</title>
-      <link>vale979.github.io/tags/english/</link>
+      <link>/tags/english/</link>
       <pubDate>Thu, 06 Oct 2022 22:07:20 +0700</pubDate>
       
-      <guid>vale979.github.io/tags/english/</guid>
+      <guid>/tags/english/</guid>
       <description></description>
     </item>
     
