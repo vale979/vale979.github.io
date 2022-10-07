@@ -1,4 +1,3 @@
-baseURL = 'vale979.github.io'
 languageCode = 'en-us'
 title = "Val's Notes"
 theme = 'fluency'
