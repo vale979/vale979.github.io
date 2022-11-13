@@ -5,8 +5,9 @@ date: 2022-10-06T22:33:10+07:00
 math: true
 ---
 
-|![about-foto](https://res.cloudinary.com/ddtggb6fb/image/upload/c_scale,w_620/v1665072931/about_photo_xxktvy.jpg)|
+|![about-foto](https://res.cloudinary.com/ddtggb6fb/image/upload/c_scale,w_744/v1668353220/2342338_jgd51o.jpg)|
 |:--:|
+|Photo above taken in Institute of Mathematics, Hanoi|
 
 Hello! I am **Valerian Pratama**. I graduated with bachelor degree in mathematics from Institut Teknologi Bandung in 2021 and I will be graduating with master degree in mathematics from Institut Teknologi Bandung in late October 2022. My interest in mathematics is mainly in homotopy theory and $\infty$-category theory, though I am also currently exploring nearby area of mathematics like algebraic geometry.
 
@@ -15,3 +16,5 @@ For my undergraduate thesis, I am writing an exposition on Eilenberg-MacLane spa
 Outside of mathematics, I like to play tower defense game (mainly Arknights), hiking/camping (still learning to do it solo!), and listening to music (mainly JPop/Mandopop -- although I can't speak either Japanese or Chinese lol). For music, my main setup is Hifiman Sundara + Fiio Q3 DAC. Some of my favourite utaite is Akie, HACHI, Kano, and Machita Chima. I also like to listen to game soundtrack, usually looping soundtrack from Blue Archive or Arknights while working.
 
 For a bit more look to my music preference, here's my (curated) Youtube [playlist](https://www.youtube.com/playlist?list=PLUmSBNs2YOUWp-USa3rfgZUN9rQWy6X54).
+
+For more insight into my mathematical journey, you can access my academic CV [here](https://drive.google.com/file/d/1EIfUACZCRQrJaGSJIkHdu3GxPGB-67Yj/view?usp=sharing)

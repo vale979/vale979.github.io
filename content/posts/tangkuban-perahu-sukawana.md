@@ -15,6 +15,7 @@ Selepas dari CIC, kita akan memasuki kawasan kebun teh. *Rule of thumb*: ikuti s
 |![kebun-teh](https://res.cloudinary.com/ddtggb6fb/image/upload/c_scale,w_710/v1665112318/POST_tangkuban_perahu/2260676_eajaaj.jpg)|
 |:--:|
 |Memasuki kawasan kebun teh.|
+
 Di perjalanan anda (sebelum melewati batas rimba), mata anda akan sangat dimanjakan dengan pemandangan kebun teh dan Gunung Burangrang di sebelah barat-barat laut.
 
 |![burangrang](https://res.cloudinary.com/ddtggb6fb/image/upload/c_scale,w_710/v1665112318/POST_tangkuban_perahu/2260677_p3tv2d.jpg)|
