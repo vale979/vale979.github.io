@@ -1,0 +1,1 @@
+{"rule":"AGREEMENT_SENT_START","sentence":"^\\QContents\nContents\nThe Start\\E$"}

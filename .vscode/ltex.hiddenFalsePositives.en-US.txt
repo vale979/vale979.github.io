@@ -1,0 +1,6 @@
+{"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qabout-foto\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QFor music, my main setup is Hifiman Sundara + Fiio Q3 DAC.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QOutside of mathematics, I like to play tower defense game (mainly Arknights), hiking/camping (still learning to do it solo!), and listening to music (mainly JPop/Mandopop -- although I can't speak either Japanese or Chinese lol).\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QFor my master thesis, I learnt about simplicial sets and some simplicial homotopy theory to bridge construction for quasicategory -- a certain model for \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q-category.\\E$"}
+{"rule":"LEARN_NNNNS_ON_DO","sentence":"^\\QNot so long after joining, I got introduced to Google Cloud Skills Boost -- a learning site by Google to learn various skills\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QGCPDE-recommendation\\E$"}
