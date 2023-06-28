@@ -9,6 +9,8 @@ math: true
 
 Bagi orang yang tinggal di Bandung dan sekitarnya, gunung Tangkuban Perahu merupakan salah satu destinasi wisata favorit. Khususnya, pelancong dapat dengan mudah menikmati keindahan *view* kawah Domas dengan hanya sedikit berjalan saja dari parkiran bila melalui gerbang resmi di dekat perbatasan Lembang - Subang. 
 
+<!--more-->
+
 Namun kali ini, saya memilih untuk melakukan pendakian via jalur lainnya. Ada dua jalur untuk menuju ke Tangkuban Perahu (selain via jalur resmi), yakni via kebun teh Sukawana dan via Jayagiri. Berhubung via Sukawana lebih mudah dan jalurnya lebih jelas, saya memilih untuk melakukan pendakian melalui Sukawana. Saya memulai pendakian dari CIC ([Ciwangun Indah Camp](https://goo.gl/maps/9EifJ581KEcb7KwF6)), sekaligus menitipkan motor di parkirannya. Relatif lebih aman (dan jalannya agak lebih enak buat motor matic) dibanding menitipkan motor di warung pinggir kebun teh. Di CIC, cukup membayar parkir dan tiket masuk. Saya lupa harga eksaknya berapa, tapi seingat saya total tidak sampai 20 ribu untuk masuk + parkir motor. Dari CIC kemudian kita tinggal naik tangganya dan berjalan ke arah kebun teh. Untuk yang baru pernah ke sini, bagian awal ini sampai ke batas rimba mungkin adalah bagian paling membingungkan. Untuk itu, jika anda ingin mencoba melakukan pendakian solo ke sini untuk pertama kali, ada baiknya anda menyiapkan GPS (atau ya ajak saja teman yang sudah pernah 😬).
 
 Selepas dari CIC, kita akan memasuki kawasan kebun teh. *Rule of thumb*: ikuti saja jalannya + cek GPS untuk memastikan jalurnya benar.

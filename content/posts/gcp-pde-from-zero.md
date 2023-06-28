@@ -11,6 +11,8 @@ So, you want to be a Google-certified data engineer?
 
 ![Google Professional Data Engineer](https://res.cloudinary.com/ddtggb6fb/image/upload/c_scale,w_725/v1674334178/POST_GCPDE/GCPDE_valer_jkiksy.jpg)
 
+<!--more-->
+
 Over the last several months I have been taking courses and doing hands-on labs to learn Google Cloud Platform for data engineering. I prepared for the exam for about 2-3 months. Then I passed the exam to officially be a Google-certified data engineer. And I started with a zero data engineering experience. Here's my journey.
 
 *Note: I took the exam on January 18, 2023. If you read this far in the future (thanks!), the exam might have had some update. Please always refer to the official material first if you want more information about the exam.*
