@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>english on Val&#39;s Notes</title>
-    <link>/tags/english/</link>
+    <link>http://vale979.github.io/tags/english/</link>
     <description>Recent content in english on Val&#39;s Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 07 Jul 2023 12:29:44 +0700</lastBuildDate><atom:link href="/tags/english/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 07 Jul 2023 12:29:44 +0700</lastBuildDate><atom:link href="http://vale979.github.io/tags/english/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Basic Practical Networking for the Cloud. Part 1: Networking Fundamentals and VPC</title>
-      <link>/posts/basic-networking-i/</link>
+      <link>http://vale979.github.io/posts/basic-networking-i/</link>
       <pubDate>Fri, 07 Jul 2023 12:29:44 +0700</pubDate>
       
-      <guid>/posts/basic-networking-i/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;/img/network.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+      <guid>http://vale979.github.io/posts/basic-networking-i/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://vale979.github.io/img/network.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Networking is a fundamental concept in cloud computing. It allows us to connect various resources within the cloud environment and also for external communication to the internet or private data center. In this series of articles, I hope I can give you enough basic understanding to get it started in the cloud.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>My Journey on Getting Certified As Google Cloud Professional Data Engineer From Zero</title>
-      <link>/posts/gcp-pde-from-zero/</link>
+      <link>http://vale979.github.io/posts/gcp-pde-from-zero/</link>
       <pubDate>Sun, 22 Jan 2023 04:29:44 +0700</pubDate>
       
-      <guid>/posts/gcp-pde-from-zero/</guid>
+      <guid>http://vale979.github.io/posts/gcp-pde-from-zero/</guid>
       <description>&lt;p&gt;So, you want to be a Google-certified data engineer?&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/ddtggb6fb/image/upload/c_scale,w_725/v1674334178/POST_GCPDE/GCPDE_valer_jkiksy.jpg&#34; alt=&#34;Google Professional Data Engineer&#34;&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Hello World!</title>
-      <link>/posts/hello/</link>
+      <link>http://vale979.github.io/posts/hello/</link>
       <pubDate>Thu, 06 Oct 2022 22:07:20 +0700</pubDate>
       
-      <guid>/posts/hello/</guid>
+      <guid>http://vale979.github.io/posts/hello/</guid>
       <description>Hello! This will be my new blog. I build this with Hugo Framework, so I can focus less on web development and more on the content. Well, let&amp;rsquo;s see then!</description>
     </item>
     
