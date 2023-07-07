@@ -7,7 +7,7 @@ author = 'Valerian'
 summaryLength = 30
 enableEmoji = true
 publishDir = "docs"
-baseURL = "http://vale979.github.io"
+baseURL = "https://vale979.github.io"
 
 #menu
 [menu]
