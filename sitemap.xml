@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/posts/basic-networking-i/</loc>
+    <lastmod>2023-07-07T12:29:44+07:00</lastmod>
+  </url><url>
+    <loc>/tags/cloud-engineering/</loc>
+    <lastmod>2023-07-07T12:29:44+07:00</lastmod>
+  </url><url>
+    <loc>/tags/english/</loc>
+    <lastmod>2023-07-07T12:29:44+07:00</lastmod>
+  </url><url>
+    <loc>/posts/</loc>
+    <lastmod>2023-07-07T12:29:44+07:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2023-07-07T12:29:44+07:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2023-07-07T12:29:44+07:00</lastmod>
+  </url><url>
     <loc>/about/</loc>
     <lastmod>2023-06-27T23:29:10+07:00</lastmod>
   </url><url>
@@ -11,19 +29,7 @@
     <loc>/tags/data-engineering/</loc>
     <lastmod>2023-01-22T04:29:44+07:00</lastmod>
   </url><url>
-    <loc>/tags/english/</loc>
-    <lastmod>2023-01-22T04:29:44+07:00</lastmod>
-  </url><url>
     <loc>/posts/gcp-pde-from-zero/</loc>
-    <lastmod>2023-01-22T04:29:44+07:00</lastmod>
-  </url><url>
-    <loc>/posts/</loc>
-    <lastmod>2023-01-22T04:29:44+07:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2023-01-22T04:29:44+07:00</lastmod>
-  </url><url>
-    <loc>/</loc>
     <lastmod>2023-01-22T04:29:44+07:00</lastmod>
   </url><url>
     <loc>/tags/bahasa-indonesia/</loc>

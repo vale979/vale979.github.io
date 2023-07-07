@@ -6,7 +6,17 @@
     <description>Recent content in Posts on Val&#39;s Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 22 Jan 2023 04:29:44 +0700</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 07 Jul 2023 12:29:44 +0700</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Basic Practical Networking for the Cloud. Part 1: Networking Fundamentals and VPC</title>
+      <link>/posts/basic-networking-i/</link>
+      <pubDate>Fri, 07 Jul 2023 12:29:44 +0700</pubDate>
+      
+      <guid>/posts/basic-networking-i/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;/img/network.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Networking is a fundamental concept in cloud computing. It allows us to connect various resources within the cloud environment and also for external communication to the internet or private data center. In this series of articles, I hope I can give you enough basic understanding to get it started in the cloud.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>My Journey on Getting Certified As Google Cloud Professional Data Engineer From Zero</title>
       <link>/posts/gcp-pde-from-zero/</link>

@@ -6,7 +6,25 @@
     <description>Recent content in Tags on Val&#39;s Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 22 Jan 2023 04:29:44 +0700</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 07 Jul 2023 12:29:44 +0700</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>cloud engineering</title>
+      <link>/tags/cloud-engineering/</link>
+      <pubDate>Fri, 07 Jul 2023 12:29:44 +0700</pubDate>
+      
+      <guid>/tags/cloud-engineering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>english</title>
+      <link>/tags/english/</link>
+      <pubDate>Fri, 07 Jul 2023 12:29:44 +0700</pubDate>
+      
+      <guid>/tags/english/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>career</title>
       <link>/tags/career/</link>
@@ -22,15 +40,6 @@
       <pubDate>Sun, 22 Jan 2023 04:29:44 +0700</pubDate>
       
       <guid>/tags/data-engineering/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>english</title>
-      <link>/tags/english/</link>
-      <pubDate>Sun, 22 Jan 2023 04:29:44 +0700</pubDate>
-      
-      <guid>/tags/english/</guid>
       <description></description>
     </item>
     
