@@ -79,3 +79,5 @@ $RECYCLE.BIN/
 *.lnk
 
 exampleSite/.hugo_build.lock
+
+.vscode
