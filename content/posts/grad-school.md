@@ -1,6 +1,6 @@
 ---
 title: "Graduate School is Probably Not For You"
-date: 2023-08-17T22:05:21+07:00
+date: 2023-08-17T05:21:21+07:00
 draft: false
 author: "Valerian"
 tags: ["english", "graduate school", "math"]
