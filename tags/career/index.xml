@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>career on Val&#39;s Notes</title>
+    <title>Career on Val&#39;s Notes</title>
     <link>https://vale979.github.io/tags/career/</link>
-    <description>Recent content in career on Val&#39;s Notes</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Career on Val&#39;s Notes</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 22 Jan 2023 04:29:44 +0700</lastBuildDate><atom:link href="https://vale979.github.io/tags/career/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 22 Jan 2023 04:29:44 +0700</lastBuildDate>
+    <atom:link href="https://vale979.github.io/tags/career/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My Journey on Getting Certified As Google Cloud Professional Data Engineer From Zero</title>
       <link>https://vale979.github.io/posts/gcp-pde-from-zero/</link>
       <pubDate>Sun, 22 Jan 2023 04:29:44 +0700</pubDate>
-      
       <guid>https://vale979.github.io/posts/gcp-pde-from-zero/</guid>
-      <description>&lt;p&gt;So, you want to be a Google-certified data engineer?&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/ddtggb6fb/image/upload/c_scale,w_725/v1674334178/POST_GCPDE/GCPDE_valer_jkiksy.jpg&#34; alt=&#34;Google Professional Data Engineer&#34;&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;So, you want to be a Google-certified data engineer?&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/ddtggb6fb/image/upload/c_scale,w_725/v1674334178/POST_GCPDE/GCPDE_valer_jkiksy.jpg&#34; alt=&#34;Google Professional Data Engineer&#34;&gt;&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

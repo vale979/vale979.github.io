@@ -4,80 +4,65 @@
     <title>Tags on Val&#39;s Notes</title>
     <link>https://vale979.github.io/tags/</link>
     <description>Recent content in Tags on Val&#39;s Notes</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 17 Aug 2023 05:21:21 +0700</lastBuildDate><atom:link href="https://vale979.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 14 Dec 2025 22:59:51 +0700</lastBuildDate>
+    <atom:link href="https://vale979.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>english</title>
+      <title>English</title>
       <link>https://vale979.github.io/tags/english/</link>
-      <pubDate>Thu, 17 Aug 2023 05:21:21 +0700</pubDate>
-      
+      <pubDate>Sun, 14 Dec 2025 22:59:51 +0700</pubDate>
       <guid>https://vale979.github.io/tags/english/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>graduate school</title>
+      <title>Running</title>
+      <link>https://vale979.github.io/tags/running/</link>
+      <pubDate>Sun, 14 Dec 2025 22:59:51 +0700</pubDate>
+      <guid>https://vale979.github.io/tags/running/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Graduate School</title>
       <link>https://vale979.github.io/tags/graduate-school/</link>
       <pubDate>Thu, 17 Aug 2023 05:21:21 +0700</pubDate>
-      
       <guid>https://vale979.github.io/tags/graduate-school/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>math</title>
+      <title>Math</title>
       <link>https://vale979.github.io/tags/math/</link>
       <pubDate>Thu, 17 Aug 2023 05:21:21 +0700</pubDate>
-      
       <guid>https://vale979.github.io/tags/math/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>cloud engineering</title>
-      <link>https://vale979.github.io/tags/cloud-engineering/</link>
-      <pubDate>Fri, 07 Jul 2023 12:29:44 +0700</pubDate>
-      
-      <guid>https://vale979.github.io/tags/cloud-engineering/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>career</title>
+      <title>Career</title>
       <link>https://vale979.github.io/tags/career/</link>
       <pubDate>Sun, 22 Jan 2023 04:29:44 +0700</pubDate>
-      
       <guid>https://vale979.github.io/tags/career/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>data engineering</title>
+      <title>Data Engineering</title>
       <link>https://vale979.github.io/tags/data-engineering/</link>
       <pubDate>Sun, 22 Jan 2023 04:29:44 +0700</pubDate>
-      
       <guid>https://vale979.github.io/tags/data-engineering/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>bahasa indonesia</title>
+      <title>Bahasa Indonesia</title>
       <link>https://vale979.github.io/tags/bahasa-indonesia/</link>
       <pubDate>Fri, 07 Oct 2022 09:59:44 +0700</pubDate>
-      
       <guid>https://vale979.github.io/tags/bahasa-indonesia/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>hiking</title>
+      <title>Hiking</title>
       <link>https://vale979.github.io/tags/hiking/</link>
       <pubDate>Fri, 07 Oct 2022 09:59:44 +0700</pubDate>
-      
       <guid>https://vale979.github.io/tags/hiking/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

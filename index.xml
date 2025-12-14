@@ -4,64 +4,51 @@
     <title>Val&#39;s Notes</title>
     <link>https://vale979.github.io/</link>
     <description>Recent content on Val&#39;s Notes</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 17 Aug 2023 05:21:21 +0700</lastBuildDate><atom:link href="https://vale979.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 14 Dec 2025 22:59:51 +0700</lastBuildDate>
+    <atom:link href="https://vale979.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Towards the Sky I Chose - SLU 15K and 2025 Retrospect</title>
+      <link>https://vale979.github.io/posts/siksorogo-15k-2025/</link>
+      <pubDate>Sun, 14 Dec 2025 22:59:51 +0700</pubDate>
+      <guid>https://vale979.github.io/posts/siksorogo-15k-2025/</guid>
+      <description>&lt;p&gt;One year ago, I decided that I will give trail running a try. Mind you, myself in 2024 was not really a runner. My tempo pace was freakin&amp;rsquo; 11&amp;rsquo;/km! I also cramped running a 1h15m 7K race lol. However, in order to suffer less when hiking, I think I need to get fitter. So, I started running. And what is better than giving yourself a target, an anchor, so you can measure your progress? Yes, a race! Siksorogo was surely a very popular race, even when I was not a trail runner back then, I already heard the name. I checked the details of the race and saw that it&amp;rsquo;s around 15km with elevation gain of around 1000m and 6h cutoff time. Seems like a realistic target for me. So, I vowed to myself that in 2025 I will be fit enough to complete this race.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>https://vale979.github.io/about/</link>
+      <pubDate>Sun, 14 Dec 2025 22:04:00 +0700</pubDate>
+      <guid>https://vale979.github.io/about/</guid>
+      <description>&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;&lt;img src=&#34;https://res.cloudinary.com/ddtggb6fb/image/upload/c_scale,w_744/v1668353220/2342338_jgd51o.jpg&#34; alt=&#34;about-foto&#34;&gt;&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Photo above taken in Institute of Mathematics, Hanoi&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;Hello! I am &lt;strong&gt;Valerian Pratama&lt;/strong&gt;. I graduated with bachelor degree in mathematics from Institut Teknologi Bandung in 2021 and with master degree in mathematics from Institut Teknologi Bandung in October 2022. As of December 2025, I am working as a data engineer at a financial company.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Graduate School is Probably Not For You</title>
       <link>https://vale979.github.io/posts/grad-school/</link>
       <pubDate>Thu, 17 Aug 2023 05:21:21 +0700</pubDate>
-      
       <guid>https://vale979.github.io/posts/grad-school/</guid>
       <description>&lt;p&gt;Because maybe a healthy dose of self-critic and a bit of honesty might be for the best.&lt;/p&gt;</description>
     </item>
-    
-    <item>
-      <title>Basic Practical Networking for the Cloud. Part 1: Networking Fundamentals and VPC</title>
-      <link>https://vale979.github.io/posts/basic-networking-i/</link>
-      <pubDate>Fri, 07 Jul 2023 12:29:44 +0700</pubDate>
-      
-      <guid>https://vale979.github.io/posts/basic-networking-i/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://vale979.github.io/img/network.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Networking is a fundamental concept in cloud computing. It allows us to connect various resources within the cloud environment and also for external communication to the internet or private data center. In this series of articles, I hope I can give you enough basic understanding to get it started in the cloud.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://vale979.github.io/about/</link>
-      <pubDate>Tue, 27 Jun 2023 23:29:10 +0700</pubDate>
-      
-      <guid>https://vale979.github.io/about/</guid>
-      <description>Photo above taken in Institute of Mathematics, Hanoi Hello! I am Valerian Pratama. I graduated with bachelor degree in mathematics from Institut Teknologi Bandung in 2021 and with master degree in mathematics from Institut Teknologi Bandung in October 2022.</description>
-    </item>
-    
     <item>
       <title>My Journey on Getting Certified As Google Cloud Professional Data Engineer From Zero</title>
       <link>https://vale979.github.io/posts/gcp-pde-from-zero/</link>
       <pubDate>Sun, 22 Jan 2023 04:29:44 +0700</pubDate>
-      
       <guid>https://vale979.github.io/posts/gcp-pde-from-zero/</guid>
-      <description>&lt;p&gt;So, you want to be a Google-certified data engineer?&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/ddtggb6fb/image/upload/c_scale,w_725/v1674334178/POST_GCPDE/GCPDE_valer_jkiksy.jpg&#34; alt=&#34;Google Professional Data Engineer&#34;&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;So, you want to be a Google-certified data engineer?&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/ddtggb6fb/image/upload/c_scale,w_725/v1674334178/POST_GCPDE/GCPDE_valer_jkiksy.jpg&#34; alt=&#34;Google Professional Data Engineer&#34;&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Solo Hike Tangkuban Perahu via CIC - Sukawana (Include GPX)</title>
       <link>https://vale979.github.io/posts/tangkuban-perahu-sukawana/</link>
       <pubDate>Fri, 07 Oct 2022 09:59:44 +0700</pubDate>
-      
       <guid>https://vale979.github.io/posts/tangkuban-perahu-sukawana/</guid>
       <description>&lt;p&gt;Bagi orang yang tinggal di Bandung dan sekitarnya, gunung Tangkuban Perahu merupakan salah satu destinasi wisata favorit. Khususnya, pelancong dapat dengan mudah menikmati keindahan &lt;em&gt;view&lt;/em&gt; kawah Domas dengan hanya sedikit berjalan saja dari parkiran bila melalui gerbang resmi di dekat perbatasan Lembang - Subang.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Hello World!</title>
       <link>https://vale979.github.io/posts/hello/</link>
       <pubDate>Thu, 06 Oct 2022 22:07:20 +0700</pubDate>
-      
       <guid>https://vale979.github.io/posts/hello/</guid>
-      <description>Hello! This will be my new blog. I build this with Hugo Framework, so I can focus less on web development and more on the content. Well, let&amp;rsquo;s see then!</description>
+      <description>&lt;p&gt;Hello! This will be my new blog. I build this with Hugo Framework, so I can focus less on web development and more on the content.&#xA;Well, let&amp;rsquo;s see then!&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

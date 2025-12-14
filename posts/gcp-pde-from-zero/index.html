@@ -86,13 +86,6 @@
   
 
   
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="My Journey on Getting Certified As Google Cloud Professional Data Engineer From Zero | Val&#39;s Notes" />
-  <meta name="twitter:description" content="So, you want to be a Google-certified data engineer?
-" />
-  <meta name="twitter:domain" content="https://vale979.github.io/posts/gcp-pde-from-zero/" />
-
-  
   
     <link rel="icon" href="https://vale979.github.io/favicon.ico">
   
@@ -122,13 +115,7 @@
     
     <link rel="stylesheet" href="/style.css" integrity="" rel="preload stylesheet" as="style"/>
   
-
-  
-  
-    
-  
 </head>
-
   <body>
     <script>
   const currentTheme = window.localStorage.getItem('theme')
@@ -161,7 +148,7 @@
 
 </button>
       <div class="navbar-brand">
-        <a class="logo navbar-button" href="https://vale979.github.io" title="Val&#39;s Notes">
+        <a class="logo navbar-button" href="https://vale979.github.io/" title="Val&#39;s Notes">
           <span>Val&#39;s Notes</span>
         </a>
       </div>
@@ -332,55 +319,57 @@ Valerian</span>
 <p>I joined Merkle Indonesia as data engineer intern at November 2022. During the interview, I honestly said that I have zero experience in data engineering. However, I also said that I had some basic programming skill and interest on learning the required skill (which is proven by my performance in the technical test, kinda). Not so long after joining, I got introduced to Google Cloud Skills Boost &ndash; a learning site by Google to learn various skills about Google Cloud. Naturally after that, I got challenged to complete Google Cloud Professional Data Engineer certificate.</p>
 <p>Well, the first natural thing that I did was to check on the official website to get information about the exam (which can be found <a href="https://cloud.google.com/certification/data-engineer">here</a>). If you open it, you will see this in the page:</p>
 <table>
-<thead>
-<tr>
-<th style="text-align:center"><img src="https://res.cloudinary.com/ddtggb6fb/image/upload/c_scale,w_725/v1674330229/POST_GCPDE/gcp_recommended_hoqprd.png" alt="GCPDE-recommendation"></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">They recommend you to have 3 years of industry experience for the exam!</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: center"><img src="https://res.cloudinary.com/ddtggb6fb/image/upload/c_scale,w_725/v1674330229/POST_GCPDE/gcp_recommended_hoqprd.png" alt="GCPDE-recommendation"></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center">They recommend you to have 3 years of industry experience for the exam!</td>
+      </tr>
+  </tbody>
 </table>
 <p>Okay, this looks like a challenge. So, I&rsquo;ll do it :D. To be fair, this is just a recommendation and not hard prerequisites, so it&rsquo;s still technically not an impossible feat.</p>
 <p>First things first, since Merkle Indonesia is a Google partner, I can sign up to <a href="https://inthecloud.withgoogle.com/pck-page/register.html?linkId=8052588">Google Partner Certification Kickstart (PCK) program</a>. After waiting for a while, I got an email from Google informing my learning path for this certification. They give me a 10 weeks deadline. If I can clear the program in under 10 weeks, they will give me a voucher to take the exam free of charge. This is very nice, since the exam costs 200 USD.</p>
 <p>Before actually started with the courses provided, I took my time to review the <a href="https://cloud.google.com/certification/guides/data-engineer">exam guide</a> and <a href="https://docs.google.com/forms/d/e/1FAIpQLSfkWEzBCP0wQ09ZuFm7G2_4qtkYbfmk_0getojdnPdCYmq37Q/viewform">official sample questions</a>. I copy-pasted the guide into my Notion notes and started building my notes around the guides. During my first time attempting the sample questions (which is not as hard as the actual exam, by the way), I was completely destroyed. I had no idea what Cloud Spanner is, let alone know what Google best practice recommendation to improve its performance. I know BigQuery, sure, but what is Bigtable? Dunno. So I just guessed many of the questions. Now fortunately they gave us a review. Not only they give us the correct answer, but also the reasoning and relevant documentation link. This is VERY helpful! The documentation is your guiding light when learning for this exam and getting exposed to this from the very beginning is great. Whenever you have doubt during your learning process, you should always <a href="https://en.wikipedia.org/wiki/RTFM">RTFM</a> and consult the documentation.</p>
 <h2 id="the-course">The Course</h2>
 <table>
-<thead>
-<tr>
-<th style="text-align:center"><img src="https://res.cloudinary.com/ddtggb6fb/image/upload/v1674333190/POST_GCPDE/week1-3_euvx23.jpg" alt="Week 1 - 3"></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">The course plan from Google</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: center"><img src="https://res.cloudinary.com/ddtggb6fb/image/upload/v1674333190/POST_GCPDE/week1-3_euvx23.jpg" alt="Week 1 - 3"></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center">The course plan from Google</td>
+      </tr>
+  </tbody>
 </table>
 <p>I started to grind the course. The first week introduced me with eagle-view of various Google Cloud product used for data engineering, like BigQuery ML, Pub/Sub, Vertex AI, etc. There is also a hands-on quest with a challenge to set-up VM clusters and load balancer on Google Compute Engine under a given time pressure. This is my first time learning about what a load balancer is and the difference between L4/L7 load balancer (and what the heck an OSI layer is).</p>
 <p>After that I found the second and third week material quite a bit easier. I finished the third week material on my second week. One of the main point that I learnt here is about how to handle streaming data (and why is it different from handling batch data).</p>
 <table>
-<thead>
-<tr>
-<th style="text-align:center"><img src="https://res.cloudinary.com/ddtggb6fb/image/upload/v1674333921/POST_GCPDE/week4-6_mu5s2w.jpg" alt="Week 4 - 6"></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">The course plan from Google</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: center"><img src="https://res.cloudinary.com/ddtggb6fb/image/upload/v1674333921/POST_GCPDE/week4-6_mu5s2w.jpg" alt="Week 4 - 6"></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center">The course plan from Google</td>
+      </tr>
+  </tbody>
 </table>
 <p>The course material for the fourth week is probably the hardest. It introduce you to a lot of hands-on with Dataflow, including continuous integration and continuous deployment of pipelines using Cloud Build and Cloud Composer (a managed Airflow solution). They had two hands-on lab version on each topics: one with Java and one with Python. To complete, you have to clear both version of the labs. Before this, I never wrote a line of Java code. I had to actually learn how to write an Apache Beam pipeline with Java for this course (though with boilerplates already provided).</p>
 <p>I still managed to finish them in a week (and so can you!). Then, I took a new year break (our company had a week-long break from Christmas to New Year) and continue to get the needed skill badge. For the <code>Perform Foundational Data, ML, and AI Tasks in Google Cloud</code>, I got a bit of problem because one of the lab is under maintenance, so I had to wait several days before getting the skill badge. The <code>Engineer Data in Google Cloud</code> introduced me to use Dataprep to clean and prepare data for analysis, write an ETL pipeline with Dataflow (again!), hands-on with BigQuery ML, and use Cloud Composer to do an inter-region data transfer. For the challenge lab, we are required to prepare the data and do a prediction with machine learning with BigQuery ML. I failed several times on this challenge lab because of the time pressure lol. They gave us 1 hour to do data preparation (that took me at least 15-20 minutes already, if I don&rsquo;t make a big mistake), training the model, and do batch prediction. Eventually I cleared it and hence, finished the program. I asked the chat support regarding the voucher, and after several hours, my voucher was granted.</p>
 <table>
-<thead>
-<tr>
-<th style="text-align:center"><img src="https://res.cloudinary.com/ddtggb6fb/image/upload/c_scale,w_709/v1674335256/POST_GCPDE/voucher_email_avwmik.jpg" alt="The Voucher"></th>
-</tr>
-</thead>
+  <thead>
+      <tr>
+          <th style="text-align: center"><img src="https://res.cloudinary.com/ddtggb6fb/image/upload/c_scale,w_709/v1674335256/POST_GCPDE/voucher_email_avwmik.jpg" alt="The Voucher"></th>
+      </tr>
+  </thead>
+  <tbody>
+  </tbody>
 </table>
 <p>Somehow the email said &ldquo;Professional Cloud Architect&rdquo;, but alas, I can still use it to register for the Professional Data Engineer exam. So, no problem.</p>
 <h2 id="before-the-dawn">Before the Dawn</h2>
@@ -583,7 +572,7 @@ Share:</span>
       </li>
     </ul>
     <div class="copyright">
-       &copy; 2023 Val&#39;s Notes
+       &copy; 2025 Val&#39;s Notes
       
     </div>
   </div>
