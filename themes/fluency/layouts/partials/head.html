@@ -47,12 +47,6 @@
     {{ end }} {{ end }}
   {{ end }}
 
-  <!-- twitter card -->
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="{{ $title }}" />
-  <meta name="twitter:description" content="{{ $description }}" />
-  <meta name="twitter:domain" content="{{ .Permalink }}" />
-
   <!-- icon meta -->
   {{ if (fileExists "static/favicon.ico") }}
     <link rel="icon" href="{{ "favicon.ico" | absURL }}">
@@ -79,15 +73,10 @@
 
   {{ $CSS := slice $base_style $main_style | resources.Concat "style.css" }}
 
-  {{ if not .Site.IsServer }}
+  {{ if not hugo.IsServer }}
     {{ $CSS := $CSS }}
     <link rel="stylesheet" href="{{ $CSS.RelPermalink }}" integrity="" rel="preload stylesheet" as="style"/>
   {{ else }}
     <link rel="stylesheet" href="{{ $CSS.RelPermalink }}" rel="preload stylesheet" as="style"/>
-  {{ end }}
-
-  <!-- misc -->
-  {{ if not .Site.IsServer }}
-    {{ template "_internal/google_analytics_async.html" . }}
   {{ end }}
 </head>

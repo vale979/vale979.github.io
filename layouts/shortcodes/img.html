@@ -1,0 +1,21 @@
+{{ $src := .Get "src" }}
+{{ $alt := .Get "alt" }}
+{{ $resize := .Get "resize" }}
+{{ $caption := .Get "caption" }}
+
+{{ $image := .Page.Resources.GetMatch $src }}
+
+<figure style="text-align: center; margin: 1rem auto;">
+    {{ if $image }}
+        {{ if $resize }}
+            {{ $image = $image.Resize $resize }}
+        {{ end }}
+        <img src="{{ $image.RelPermalink }}" alt="{{ $alt }}" style="display: inline-block; max-width: 100%;">
+    {{ else }}
+        <img src="{{ $src | relURL }}" alt="{{ $alt }}" style="display: inline-block; max-width: 100%;">
+    {{ end }}
+
+    {{ with $caption }}
+        <figcaption>{{ . }}</figcaption>
+    {{ end }}
+</figure>

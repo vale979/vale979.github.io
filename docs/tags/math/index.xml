@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Math on Val&#39;s Notes</title>
+    <link>http://localhost:1313/tags/math/</link>
+    <description>Recent content in Math on Val&#39;s Notes</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 17 Aug 2023 05:21:21 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/math/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Graduate School is Probably Not For You</title>
+      <link>http://localhost:1313/posts/grad-school/</link>
+      <pubDate>Thu, 17 Aug 2023 05:21:21 +0700</pubDate>
+      <guid>http://localhost:1313/posts/grad-school/</guid>
+      <description>&lt;p&gt;Because maybe a healthy dose of self-critic and a bit of honesty might be for the best.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

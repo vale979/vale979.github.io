@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html
+  lang="en-us"
+  prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#"
+>
+  
+
+
+
+  
+  
+
+
+<script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+  integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X"
+  crossorigin="anonymous"
+/>
+
+
+<script
+  defer
+  src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js"
+  integrity="sha384-g7c+Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI+sEnkvrMWph2EDg4"
+  crossorigin="anonymous"
+></script>
+
+
+<script
+  defer
+  src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js"
+  integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC+Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa"
+  crossorigin="anonymous"
+  onload="renderMathInElement(document.body);"
+></script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+      renderMathInElement(document.body, {
+          delimiters: [
+              {left: "$$", right: "$$", display: true},
+              {left: "$", right: "$", display: false}
+          ]
+      });
+  });
+</script>
+
+
+
+<head lang="en-us">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="MobileOptimized" content="320" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="dark light">
+  <meta name="description" content="So, you want to be a Google-certified data engineer?
+" />
+  <meta name="author" content="Valerian">
+  <meta name="keywords" content="data engineering, english, career">
+  <title>My Journey on Getting Certified As Google Cloud Professional Data Engineer From Zero | Val&#39;s Notes</title>
+  <link rel="canonical" href="http://localhost:1313/posts/gcp-pde-from-zero/" />
+  
+
+  
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="So, you want to be a Google-certified data engineer?
+" />
+  <meta property="og:title" content="My Journey on Getting Certified As Google Cloud Professional Data Engineer From Zero" />
+  <meta property="og:site_name" content="Val&#39;s Notes" />
+  <meta property="og:image:type" content="image/jpeg" />
+  <meta property="og:url" content="http://localhost:1313/posts/gcp-pde-from-zero/" />
+  <meta property="og:locale" content="en-us" />
+
+  
+    <meta property="article:published_time" content="2023-01-22" />
+    <meta property="article:modified_time" content="2023-01-22" />
+     
+      <meta property="article:tag" content="data engineering" />
+    
+      <meta property="article:tag" content="english" />
+    
+      <meta property="article:tag" content="career" />
+     
+  
+
+  
+  
+    <link rel="icon" href="http://localhost:1313/favicon.ico">
+  
+  
+    <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+  
+  
+    <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+  
+  
+    <link rel="icon" type="image/png" sizes="144x144" href="http://localhost:1313/favicon-144x144.png">
+  
+  
+    <link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png" />
+  
+
+  
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/modern-normalize@1.0.0/modern-normalize.min.css">
+
+  
+  
+  
+
+  
+
+  
+    <link rel="stylesheet" href="/style.css" rel="preload stylesheet" as="style"/>
+  
+</head>
+  <body>
+    <script>
+  const currentTheme = window.localStorage.getItem('theme')
+  if (currentTheme === "dark") {
+    document.body.classList.toggle("theme-dark");
+  } else if (currentTheme == "light") {
+    document.body.classList.toggle("theme-light");
+  }
+</script>
+<header id="header">
+  <div class="row">
+    <div class="container has-padding nav">
+      <button id="navbar-toggler" class="navbar-button" aria-hidden="true">
+
+
+
+
+
+
+
+
+
+
+
+<svg xmlns='http://www.w3.org/2000/svg' class='ionicon' viewBox='0 0 512 512'><path d='M64 384h384v-42.67H64zm0-106.67h384v-42.66H64zM64 128v42.67h384V128z'/></svg>
+
+
+
+
+
+</button>
+      <div class="navbar-brand">
+        <a class="logo navbar-button" href="http://localhost:1313/" title="Val&#39;s Notes">
+          <span>Val&#39;s Notes</span>
+        </a>
+      </div>
+      <nav class="navbar" role="navigation">
+        <ul>
+          
+          
+            <li class="nav-bar-item active">
+              <a class="nav-link navbar-button" href="/posts/" title="Posts">
+                <span>posts</span>
+              </a>
+            </li>
+          
+            <li class="nav-bar-item">
+              <a class="nav-link navbar-button" href="/tags/" title="Tags">
+                <span>tags</span>
+              </a>
+            </li>
+          
+            <li class="nav-bar-item">
+              <a class="nav-link navbar-button" href="/about/" title="About Me">
+                <span>about me</span>
+              </a>
+            </li>
+          
+        </ul>
+      </nav>
+      <div class="theme-selector">
+        <button class="button is-text" id="theme-selector-button" title="toggle theme">
+          <span class="label icon">
+
+
+
+
+
+<svg xmlns='http://www.w3.org/2000/svg' class='ionicon' viewBox='0 0 512 512'><path d='M256 32C132.29 32 32 132.29 32 256s100.29 224 224 224 224-100.29 224-224S379.71 32 256 32zM128.72 383.28A180 180 0 01256 76v360a178.82 178.82 0 01-127.28-52.72z'/></svg>
+
+
+
+
+
+
+
+
+
+
+
+</span>
+        </button>
+      </div>
+    </div>
+    <div class="container has-padding">
+      <div class="breadcrumb">
+        
+<ol  class="breadcrumb-nav">
+  
+
+  
+
+  
+
+<li >
+  <a href="http://localhost:1313/">Home</a>
+</li>
+
+
+<li >
+  <a href="http://localhost:1313/posts/">Posts</a>
+</li>
+
+
+<li class="active">
+  <a href="http://localhost:1313/posts/gcp-pde-from-zero/">My Journey on Getting Certified As Google Cloud Professional Data Engineer From Zero</a>
+</li>
+
+</ol>
+
+
+
+
+      </div>
+    </div>
+  </div>
+</header>
+
+    
+
+<main id="main">
+  <div class="container has-padding">
+    <div class="article-card post single">
+      <h1 class="title">My Journey on Getting Certified As Google Cloud Professional Data Engineer From Zero</h1>
+      <div class="post-info">
+        <span>
+
+
+
+<svg xmlns='http://www.w3.org/2000/svg' class='ionicon' viewBox='0 0 512 512'><path d='M32 456a24 24 0 0024 24h400a24 24 0 0024-24V176H32zm320-244a4 4 0 014-4h40a4 4 0 014 4v40a4 4 0 01-4 4h-40a4 4 0 01-4-4zm0 80a4 4 0 014-4h40a4 4 0 014 4v40a4 4 0 01-4 4h-40a4 4 0 01-4-4zm-80-80a4 4 0 014-4h40a4 4 0 014 4v40a4 4 0 01-4 4h-40a4 4 0 01-4-4zm0 80a4 4 0 014-4h40a4 4 0 014 4v40a4 4 0 01-4 4h-40a4 4 0 01-4-4zm0 80a4 4 0 014-4h40a4 4 0 014 4v40a4 4 0 01-4 4h-40a4 4 0 01-4-4zm-80-80a4 4 0 014-4h40a4 4 0 014 4v40a4 4 0 01-4 4h-40a4 4 0 01-4-4zm0 80a4 4 0 014-4h40a4 4 0 014 4v40a4 4 0 01-4 4h-40a4 4 0 01-4-4zm-80-80a4 4 0 014-4h40a4 4 0 014 4v40a4 4 0 01-4 4h-40a4 4 0 01-4-4zm0 80a4 4 0 014-4h40a4 4 0 014 4v40a4 4 0 01-4 4h-40a4 4 0 01-4-4zM456 64h-55.92V32h-48v32H159.92V32h-48v32H56a23.8 23.8 0 00-24 23.77V144h448V87.77A23.8 23.8 0 00456 64z'/></svg>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<time datetime=2023-01-22T04:29:44&#43;0700 class="date">22 January 2023</time></span>
+        <span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<svg xmlns='http://www.w3.org/2000/svg' class='ionicon' viewBox='0 0 512 512'><path d='M256 48C141.13 48 48 141.13 48 256c0 114.69 93.32 208 208 208 114.86 0 208-93.14 208-208 0-114.69-93.31-208-208-208zm108 240H244a4 4 0 01-4-4V116a4 4 0 014-4h24a4 4 0 014 4v140h92a4 4 0 014 4v24a4 4 0 01-4 4z'/></svg>
+12 mins to read</span>
+        
+          <span>
+
+
+
+
+
+
+
+
+
+
+
+
+<svg xmlns='http://www.w3.org/2000/svg' class='ionicon' viewBox='0 0 512 512'><path d='M256 256a112 112 0 10-112-112 112 112 0 00112 112zm0 32c-69.42 0-208 42.88-208 128v64h416v-64c0-85.12-138.58-128-208-128z'/></svg>
+
+
+
+
+Valerian</span>
+        
+        
+      </div>
+      <article class="post-entry content">
+        <p>So, you want to be a Google-certified data engineer?</p>
+<p><img src="https://res.cloudinary.com/ddtggb6fb/image/upload/c_scale,w_725/v1674334178/POST_GCPDE/GCPDE_valer_jkiksy.jpg" alt="Google Professional Data Engineer"></p>
+<p>Over the last several months I have been taking courses and doing hands-on labs to learn Google Cloud Platform for data engineering. I prepared for the exam for about 2-3 months. Then I passed the exam to officially be a Google-certified data engineer. And I started with a zero data engineering experience. Here&rsquo;s my journey.</p>
+<p><em>Note: I took the exam on January 18, 2023. If you read this far in the future (thanks!), the exam might have had some update. Please always refer to the official material first if you want more information about the exam.</em></p>
+<h2 id="whats-here">What&rsquo;s Here</h2>
+<ul>
+<li><a href="#The-Start">The Start</a></li>
+<li><a href="#The-Course">The Course</a></li>
+<li><a href="#Before-the-Dawn">Before the Dawn</a></li>
+<li><a href="#The-Exam-Day">The Exam Day</a></li>
+<li><a href="#FAQs">FAQs</a></li>
+</ul>
+<h2 id="the-start">The Start</h2>
+<p>I joined Merkle Indonesia as data engineer intern at November 2022. During the interview, I honestly said that I have zero experience in data engineering. However, I also said that I had some basic programming skill and interest on learning the required skill (which is proven by my performance in the technical test, kinda). Not so long after joining, I got introduced to Google Cloud Skills Boost &ndash; a learning site by Google to learn various skills about Google Cloud. Naturally after that, I got challenged to complete Google Cloud Professional Data Engineer certificate.</p>
+<p>Well, the first natural thing that I did was to check on the official website to get information about the exam (which can be found <a href="https://cloud.google.com/certification/data-engineer">here</a>). If you open it, you will see this in the page:</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: center"><img src="https://res.cloudinary.com/ddtggb6fb/image/upload/c_scale,w_725/v1674330229/POST_GCPDE/gcp_recommended_hoqprd.png" alt="GCPDE-recommendation"></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center">They recommend you to have 3 years of industry experience for the exam!</td>
+      </tr>
+  </tbody>
+</table>
+<p>Okay, this looks like a challenge. So, I&rsquo;ll do it :D. To be fair, this is just a recommendation and not hard prerequisites, so it&rsquo;s still technically not an impossible feat.</p>
+<p>First things first, since Merkle Indonesia is a Google partner, I can sign up to <a href="https://inthecloud.withgoogle.com/pck-page/register.html?linkId=8052588">Google Partner Certification Kickstart (PCK) program</a>. After waiting for a while, I got an email from Google informing my learning path for this certification. They give me a 10 weeks deadline. If I can clear the program in under 10 weeks, they will give me a voucher to take the exam free of charge. This is very nice, since the exam costs 200 USD.</p>
+<p>Before actually started with the courses provided, I took my time to review the <a href="https://cloud.google.com/certification/guides/data-engineer">exam guide</a> and <a href="https://docs.google.com/forms/d/e/1FAIpQLSfkWEzBCP0wQ09ZuFm7G2_4qtkYbfmk_0getojdnPdCYmq37Q/viewform">official sample questions</a>. I copy-pasted the guide into my Notion notes and started building my notes around the guides. During my first time attempting the sample questions (which is not as hard as the actual exam, by the way), I was completely destroyed. I had no idea what Cloud Spanner is, let alone know what Google best practice recommendation to improve its performance. I know BigQuery, sure, but what is Bigtable? Dunno. So I just guessed many of the questions. Now fortunately they gave us a review. Not only they give us the correct answer, but also the reasoning and relevant documentation link. This is VERY helpful! The documentation is your guiding light when learning for this exam and getting exposed to this from the very beginning is great. Whenever you have doubt during your learning process, you should always <a href="https://en.wikipedia.org/wiki/RTFM">RTFM</a> and consult the documentation.</p>
+<h2 id="the-course">The Course</h2>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: center"><img src="https://res.cloudinary.com/ddtggb6fb/image/upload/v1674333190/POST_GCPDE/week1-3_euvx23.jpg" alt="Week 1 - 3"></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center">The course plan from Google</td>
+      </tr>
+  </tbody>
+</table>
+<p>I started to grind the course. The first week introduced me with eagle-view of various Google Cloud product used for data engineering, like BigQuery ML, Pub/Sub, Vertex AI, etc. There is also a hands-on quest with a challenge to set-up VM clusters and load balancer on Google Compute Engine under a given time pressure. This is my first time learning about what a load balancer is and the difference between L4/L7 load balancer (and what the heck an OSI layer is).</p>
+<p>After that I found the second and third week material quite a bit easier. I finished the third week material on my second week. One of the main point that I learnt here is about how to handle streaming data (and why is it different from handling batch data).</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: center"><img src="https://res.cloudinary.com/ddtggb6fb/image/upload/v1674333921/POST_GCPDE/week4-6_mu5s2w.jpg" alt="Week 4 - 6"></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center">The course plan from Google</td>
+      </tr>
+  </tbody>
+</table>
+<p>The course material for the fourth week is probably the hardest. It introduce you to a lot of hands-on with Dataflow, including continuous integration and continuous deployment of pipelines using Cloud Build and Cloud Composer (a managed Airflow solution). They had two hands-on lab version on each topics: one with Java and one with Python. To complete, you have to clear both version of the labs. Before this, I never wrote a line of Java code. I had to actually learn how to write an Apache Beam pipeline with Java for this course (though with boilerplates already provided).</p>
+<p>I still managed to finish them in a week (and so can you!). Then, I took a new year break (our company had a week-long break from Christmas to New Year) and continue to get the needed skill badge. For the <code>Perform Foundational Data, ML, and AI Tasks in Google Cloud</code>, I got a bit of problem because one of the lab is under maintenance, so I had to wait several days before getting the skill badge. The <code>Engineer Data in Google Cloud</code> introduced me to use Dataprep to clean and prepare data for analysis, write an ETL pipeline with Dataflow (again!), hands-on with BigQuery ML, and use Cloud Composer to do an inter-region data transfer. For the challenge lab, we are required to prepare the data and do a prediction with machine learning with BigQuery ML. I failed several times on this challenge lab because of the time pressure lol. They gave us 1 hour to do data preparation (that took me at least 15-20 minutes already, if I don&rsquo;t make a big mistake), training the model, and do batch prediction. Eventually I cleared it and hence, finished the program. I asked the chat support regarding the voucher, and after several hours, my voucher was granted.</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: center"><img src="https://res.cloudinary.com/ddtggb6fb/image/upload/c_scale,w_709/v1674335256/POST_GCPDE/voucher_email_avwmik.jpg" alt="The Voucher"></th>
+      </tr>
+  </thead>
+  <tbody>
+  </tbody>
+</table>
+<p>Somehow the email said &ldquo;Professional Cloud Architect&rdquo;, but alas, I can still use it to register for the Professional Data Engineer exam. So, no problem.</p>
+<h2 id="before-the-dawn">Before the Dawn</h2>
+<p>So, I finished the course. I also registered for the on-site exam (I pick about two weeks from the registration date). Now what?</p>
+<p>My coworker who had already passed the exam send me <a href="https://www.examtopics.com/exams/google/professional-data-engineer/">this link</a> for practice exam. Keep in mind that a lot of the answer given in that site is just straight up wrong, so you need to read the discussion and, again, RTFM. I grinded through the problem there and the problem from the official sample questions. I had lost count on how many passes I have done on those two, just to make sure I&rsquo;m confident enough about the topics. I also read Dan Sullivan&rsquo;s book <code>Professional Data Engineer Study Guide</code> and worked through the problems on the book. All this to build up my confidence for the exam day.
+<img src="https://m.media-amazon.com/images/I/51bNoPRhVwL._AC_SY580_.jpg" alt=""></p>
+<p>Another very helpful resources bank is <a href="https://github.com/sathishvj/awesome-gcp-certifications">this Github repository</a> by Satish Vj, which gave you a general guide on various GCP certifications. You should definitely take a look at that if you&rsquo;re planning to take GCP certification.</p>
+<p>Furthermore, I also watched various video about Hadoop ecosystem and read some article about data engineering implementation (like <a href="https://engineering.atspotify.com/2016/03/spotifys-event-delivery-the-road-to-the-cloud-part-ii/">this one</a>) to get a better sense of data engineering infrastructure. This has been proven useful for me, since the exam also assume familiarity with open source solution for data engineering and the Google-managed equivalent solution (i.e. Apache Kafka vs Pub/Sub, Hadoop vs Dataproc, Redis vs Memorystore, etc &ndash; hence the recommended industry experience, I think).</p>
+<h2 id="the-exam-day">The Exam Day</h2>
+<p>I took the exam at 11:15 AM, basically the latest time available at that date on that exam center. Mainly because I tried to avoid the traffic, and also because I don&rsquo;t want to be late for the exam. One day before the exam I still had other works to do, so I just focus on that rather than reviewing for the exam. At least it gave me a break from the grind.</p>
+<p>I also prefer to take the exam on-site, so that I don&rsquo;t need to bother with administrative preparation other than printing the registration email and making sure I bring the required ID on the exam day. I took the exam at PT NetTrain Informatika on The East building, Mega Kuningan, Jakarta. I would highly recommend you to take the onsite exam if it&rsquo;s available near you, because it&rsquo;s just much easier to do. You don&rsquo;t need to worry about online proctor, setting up webcam, making sure your room is locked, etc.</p>
+<p>During the exam, I was locked in a small room alone with a computer (already logged-in to secure browser) and a CCTV behind. The exam was 2 hours and I got 50 questions on the exam (Google says that you can get 50-60 questions on the exam). I don&rsquo;t know whether it was intentional or not, but I feel that the first 10 questions on the exam is probably the hardest that my groggy meter starts to increase. This is a tough exam, even more when you have less than 6 months of experience like me. The question is not a simple &ldquo;What is the managed solution in GCP for Airflow?&rdquo; but more like a situation/case with several lines of description. You need to actually understand how to choose, for example, storage solution in a given situation (i.e., when they said &ldquo;high throughput time series data&rdquo;, you should be already thinking about Bigtable). You also need to understand IAM and managing access. You also should know about tradeoffs between options (i.e., when to use HDFS persistent storage instead of GCS on Dataproc Hadoop clusters). There are also questions about machine learning. At this point, you should already know basic concept of machine learning that are described on the exam guide.</p>
+<p>If you had taken this exam in the past, you might seen a long case study questions. I believe this is not the case anymore. Most questions are usually around 2-5 lines long instead of several paragraphs. It took me about 45 minutes to complete first  complete scan. Nearly 50% of the questions was marked for review, because I was not too sure about the answer (or because I don&rsquo;t believe myself to not make a reading mistake lol). I did second scan in about 20 minutes. I feel more confident at that point, but still worried to fail. I YOLO&rsquo;d and pressed the &ldquo;Submit Exam&rdquo; button. I was so nervous that I just skipped the optional feedback survey. I want to see the result ASAP.</p>
+<p><img src="https://res.cloudinary.com/ddtggb6fb/image/upload/c_scale,w_916/v1674337865/POST_GCPDE/2457565_wbzwph.jpg" alt=""></p>
+<p>I jumped from my chair when I saw this. It feels like all heavy weights on my shoulder suddenly disappeared. The exam site staff offers me an opportunity to take that picture, which I gladly take (though to be fair you can also see that from your WebAssesor account too).</p>
+<p>If you&rsquo;re asking, yes, the exam doesn&rsquo;t provide any other feedback than Pass/Fail. They did not tell you about the passing grade nor they tell you about your score (unlike AWS exam). This feels better (if you pass) because all you know is that you had passed, not to worry about score.</p>
+<p>They said that it took 7-10 days for the official results to come, but in my case I got my certificate a day later.</p>
+<p><img src="https://res.cloudinary.com/ddtggb6fb/image/upload/v1674338214/POST_GCPDE/certified_yay_mx8p9p.jpg" alt=""></p>
+<p>On the perks webstore, you can pick one from various options of swags (jacket, tumbler, mug, bags, etc). I wanted the jacket, but unfortunately they ran out of stock at that time, so I picked the bag instead. You can also opt-in to make the certificate be publicly available, which I did (my certificate is <a href="https://www.credential.net/8ce1f76a-523d-4ad6-bb18-f878d53815cc">here</a>).</p>
+<h2 id="faqs">FAQs</h2>
+<p>Q: I want to get started. What should I do first?
+A: Read the official exam guide and try the sample question. Recognize the gap between the question and your knowledge. Then, start learning.</p>
+<p>Q: I&rsquo;m not currently working/my workplace is not a Google partner. How can I prepare for the exam?
+A: There are various other resources on the internet to prepare. You can try courses on Udemy/Coursera (I haven&rsquo;t tried those, but I have heard good things about the Google Coursera course), find free courses on YouTube, read Dan Sullivan&rsquo;s book, etc. Try visitting the official exam pages first and the Github repository I mentioned before.</p>
+<p>Q: Should I took the exam online or on-site?
+A: People have preferences. Personally I&rsquo;d prefer to take the exam on-site if I can do it, because I&rsquo;m too lazy to setup specialized exam browser and to prepare my room for the exam (been there done that for the online TOEFL exam). However, if you prefer taking it online, you do you! Just make sure your device can run the exam, especially if you&rsquo;re not using your own device (i.e. work device).</p>
+<p>Q: Is it enough to just use Cloud Skills Boost to prepare?
+A: I don&rsquo;t think so. While it&rsquo;s very helpful, there are many things that are covered too briefly the course. There are also various stuffs that you had to read yourself to familiarize with (especially for non-Google solution like HBase, Hive, Redis, Kafka, etc).</p>
+<p>Q: Okay, is it enough to just do practice from ExamTopics?
+A: No. You will get tired really quickly if it&rsquo;s all you do. You need to actually do some hands-on and read the documentation (while doing the hands-on). I believe this will feel easier for you as well. GCP offers a free 300 USD credits for the first 3 months if you are willing to give them your card info (you can just use virtual card number if you want :D). Utilize this well, as it&rsquo;s very helpful.</p>
+<p>Q: How many questions from ExamTopics are actually on the exam?
+A: Many people said that most of their exam question came from there. However, this is not the case when I took the exam. Therefore, I need to repeat myself again: you had to actually understand the topics. Don&rsquo;t really on memorizing the answer from there by heart. You will had a hard time on the exam if that&rsquo;s what you did.</p>
+<p>Q: Can I take a pen and paper to take notes during the exam?
+A: No, and you will not need it.</p>
+<p>If you wish to take the exam after reading this, good luck! And for those who passed, welcome to the club!</p>
+      </article>
+    </div>
+
+    
+      <div class="meta article-card">
+    <div class="row">
+      <span class="label">
+
+
+
+<svg xmlns='http://www.w3.org/2000/svg' class='ionicon' viewBox='0 0 512 512'><path d='M32 456a24 24 0 0024 24h400a24 24 0 0024-24V176H32zm320-244a4 4 0 014-4h40a4 4 0 014 4v40a4 4 0 01-4 4h-40a4 4 0 01-4-4zm0 80a4 4 0 014-4h40a4 4 0 014 4v40a4 4 0 01-4 4h-40a4 4 0 01-4-4zm-80-80a4 4 0 014-4h40a4 4 0 014 4v40a4 4 0 01-4 4h-40a4 4 0 01-4-4zm0 80a4 4 0 014-4h40a4 4 0 014 4v40a4 4 0 01-4 4h-40a4 4 0 01-4-4zm0 80a4 4 0 014-4h40a4 4 0 014 4v40a4 4 0 01-4 4h-40a4 4 0 01-4-4zm-80-80a4 4 0 014-4h40a4 4 0 014 4v40a4 4 0 01-4 4h-40a4 4 0 01-4-4zm0 80a4 4 0 014-4h40a4 4 0 014 4v40a4 4 0 01-4 4h-40a4 4 0 01-4-4zm-80-80a4 4 0 014-4h40a4 4 0 014 4v40a4 4 0 01-4 4h-40a4 4 0 01-4-4zm0 80a4 4 0 014-4h40a4 4 0 014 4v40a4 4 0 01-4 4h-40a4 4 0 01-4-4zM456 64h-55.92V32h-48v32H159.92V32h-48v32H56a23.8 23.8 0 00-24 23.77V144h448V87.77A23.8 23.8 0 00456 64z'/></svg>
+
+
+
+
+
+
+
+
+
+
+
+
+
+Published at</span><time>2023-01-22 04:29 WIB</time>
+      
+    </div>
+
+    
+      <div class="row">
+        <span class="label">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<svg xmlns='http://www.w3.org/2000/svg' class='ionicon' viewBox='0 0 512 512'><path d='M288 16L0 304l176 176 288-288V16zm80 128a32 32 0 1132-32 32 32 0 01-32 32z'/><path d='M480 64v144L216.9 471.1 242 496l270-272V64h-32z'/></svg>
+
+
+
+Tag(s):</span>
+        <ul class="tags">
+        
+          <li class="hashed-tag"><a href="http://localhost:1313/tags/data-engineering">data engineering</a></li>
+        
+          <li class="hashed-tag"><a href="http://localhost:1313/tags/english">english</a></li>
+        
+          <li class="hashed-tag"><a href="http://localhost:1313/tags/career">career</a></li>
+        
+        </ul>
+      </div>
+    
+
+    <div class="row social-share">
+      <span class="label">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<svg xmlns='http://www.w3.org/2000/svg' class='ionicon' viewBox='0 0 512 512'><path d='M272 176v161h-32V176H92a12 12 0 00-12 12v280a12 12 0 0012 12h328a12 12 0 0012-12V188a12 12 0 00-12-12zM272 92.63l64 64L358.63 134 256 31.37 153.37 134 176 156.63l64-64V176h32V92.63z'/></svg>
+
+Share:</span>
+      
+      
+        
+      
+      <a
+        target="_blank" 
+        title="share to twitter"
+        rel="noopener noreferrer"
+        aria-label="share My Journey on Getting Certified As Google Cloud Professional Data Engineer From Zero on twitter"
+        href="https://twitter.com/intent/tweet/?text=My%20Journey%20on%20Getting%20Certified%20As%20Google%20Cloud%20Professional%20Data%20Engineer%20From%20Zero&amp;url=http%3a%2f%2flocalhost%3a1313%2fposts%2fgcp-pde-from-zero%2f&amp;hashtags=data%20engineering%2cenglish%2ccareer">
+        
+
+
+
+
+
+
+
+
+
+
+<svg class="ionicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="fill:none;" stroke="currentColor" stroke-width="2"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
+
+
+
+
+
+
+
+      </a>
+      <a
+        target="_blank"
+        title="share to facebook"
+        rel="noopener noreferrer"
+        aria-label="share My Journey on Getting Certified As Google Cloud Professional Data Engineer From Zero on facebook"
+        href="https://facebook.com/sharer/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fposts%2fgcp-pde-from-zero%2f">
+        
+
+
+
+
+
+
+
+
+<svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 24 24" style="fill:none;" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-facebook"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+
+
+
+
+
+
+
+
+
+      </a>
+    </div>
+
+    
+</div>
+
+    
+
+    
+
+  </div>
+</main>
+
+    <footer id="footer">
+  <div class="container has-padding is-flex">
+    <ul class="links">
+      
+      <li>
+        <a
+          rel="nofollow"
+          target="_blank"
+          href="https://github.com/wayjam/hugo-theme-fluency"
+          title="using Hugo theme fluency">
+          Theme Fluency
+        </a>
+      </li>
+      <li>
+        <a rel="nofollow" target="_blank" href="https://gohugo.io" title="Built with hugo">Built with Hugo</a>
+      </li>
+    </ul>
+    <div class="copyright">
+       &copy; 2025 Val&#39;s Notes
+      
+    </div>
+  </div>
+</footer>
+
+<script>
+    window.FluencyCopyIcon = '\n\n\n\n\n\n\n\u003csvg xmlns=\u0027http:\/\/www.w3.org\/2000\/svg\u0027 class=\u0027ionicon\u0027 viewBox=\u00270 0 512 512\u0027\u003e\u003crect x=\u0027128\u0027 y=\u0027128\u0027 width=\u0027336\u0027 height=\u0027336\u0027 rx=\u002757\u0027 ry=\u002757\u0027 stroke-linejoin=\u0027round\u0027 class=\u0027ionicon-fill-none ionicon-stroke-width\u0027\/\u003e\u003cpath d=\u0027M383.5 128l.5-24a56.16 56.16 0 00-56-56H112a64.19 64.19 0 00-64 64v216a56.16 56.16 0 0056 56h24\u0027 stroke-linecap=\u0027round\u0027 stroke-linejoin=\u0027round\u0027 class=\u0027ionicon-fill-none ionicon-stroke-width\u0027\/\u003e\u003c\/svg\u003e\n\n\n\n\n\n\n\n\n\n\n'
+</script>
+
+
+<script defer src="/js/main.min.22edf5bac5dfa68a0215a42702e2a71503d57bedadc157af46b990895734f033.js" integrity="sha256-Iu31usXfpooCFaQnAuKnFQPVe+2twVevRrmQiVc08DM=" crossorigin="anonymous" async></script>
+
+
+
+<noscript>
+<style type=text/css>#theme-selector-button{display:none}</style>
+</noscript>
+
+
+
+
+  </body>
+</html>

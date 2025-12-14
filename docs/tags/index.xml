@@ -2,37 +2,67 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Val&#39;s Notes</title>
-    <link>/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Val&#39;s Notes</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 07 Oct 2022 09:59:44 +0700</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 14 Dec 2025 20:34:51 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>bahasa indonesia</title>
-      <link>/tags/bahasa-indonesia/</link>
+      <title>English</title>
+      <link>http://localhost:1313/tags/english/</link>
+      <pubDate>Sun, 14 Dec 2025 20:34:51 +0700</pubDate>
+      <guid>http://localhost:1313/tags/english/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Running</title>
+      <link>http://localhost:1313/tags/running/</link>
+      <pubDate>Sun, 14 Dec 2025 20:34:51 +0700</pubDate>
+      <guid>http://localhost:1313/tags/running/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Graduate School</title>
+      <link>http://localhost:1313/tags/graduate-school/</link>
+      <pubDate>Thu, 17 Aug 2023 05:21:21 +0700</pubDate>
+      <guid>http://localhost:1313/tags/graduate-school/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Math</title>
+      <link>http://localhost:1313/tags/math/</link>
+      <pubDate>Thu, 17 Aug 2023 05:21:21 +0700</pubDate>
+      <guid>http://localhost:1313/tags/math/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Career</title>
+      <link>http://localhost:1313/tags/career/</link>
+      <pubDate>Sun, 22 Jan 2023 04:29:44 +0700</pubDate>
+      <guid>http://localhost:1313/tags/career/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data Engineering</title>
+      <link>http://localhost:1313/tags/data-engineering/</link>
+      <pubDate>Sun, 22 Jan 2023 04:29:44 +0700</pubDate>
+      <guid>http://localhost:1313/tags/data-engineering/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bahasa Indonesia</title>
+      <link>http://localhost:1313/tags/bahasa-indonesia/</link>
       <pubDate>Fri, 07 Oct 2022 09:59:44 +0700</pubDate>
-      
-      <guid>/tags/bahasa-indonesia/</guid>
+      <guid>http://localhost:1313/tags/bahasa-indonesia/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>hiking</title>
-      <link>/tags/hiking/</link>
+      <title>Hiking</title>
+      <link>http://localhost:1313/tags/hiking/</link>
       <pubDate>Fri, 07 Oct 2022 09:59:44 +0700</pubDate>
-      
-      <guid>/tags/hiking/</guid>
+      <guid>http://localhost:1313/tags/hiking/</guid>
       <description></description>
     </item>
-    
-    <item>
-      <title>english</title>
-      <link>/tags/english/</link>
-      <pubDate>Thu, 06 Oct 2022 22:07:20 +0700</pubDate>
-      
-      <guid>/tags/english/</guid>
-      <description></description>
-    </item>
-    
   </channel>
 </rss>
