@@ -9,6 +9,17 @@ enableEmoji = true
 publishDir = "docs"
 baseURL = "https://vale979.github.io"
 
+# SEO and metadata
+copyright = "© 2025 Valerian Pratama"
+enableRobotsTXT = true
+canonifyURLs = true
+
+# Sitemap configuration
+[sitemap]
+  changefreq = 'weekly'
+  filename = 'sitemap.xml'
+  priority = 0.5
+
 #menu
 [menu]
     [[menu.main]]
@@ -42,5 +53,16 @@ baseURL = "https://vale979.github.io"
         privacyEnhanced = true
 
 [params]
+    description = "Personal blog by Valerian Pratama covering mathematics, data engineering, running, hiking, and more."
+    keywords = "mathematics, data engineering, blog, running, hiking, GCP, data"
+    images = ["https://res.cloudinary.com/ddtggb6fb/image/upload/c_scale,w_744/v1668353220/2342338_jgd51o.jpg"]
+
+    [params.author]
+        name = "Valerian Pratama"
+        email = "yakira979@gmail.com"
+
+    [params.social]
+        github = "vale979"
+
     [params.assets]
         disableFingerprinting = true
